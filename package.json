@@ -1,0 +1,14 @@
+{
+  "name": "devops-cd-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for CI/CD demo with Docker and GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
