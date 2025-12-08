@@ -37,7 +37,8 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /home/ubuntu/app-for-CD
-            docker pull ${{ secrets.DOCKERHUB_USERNAME }}/devops-cd-demo:latest
-            docker compose down
-            docker compose up -d
+               cd /home/ubuntu/app-for-CD
+               docker pull hasonateto12/devops-cd-demo:latest
+               docker-compose down
+               docker-compose up -d
+
